@@ -70,7 +70,7 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
   # You can take a look at layouts/index.html for more information.
   description = "Max's brain dump"
   mainSections = ['posts']
-  toc = true # set to false to disable table of contents 'globally'
+  toc = false # set to false to disable table of contents 'globally'
   tocOpen = false # set to true to open table of contents by default
   goToTop = true # set to false to disable 'go to top' button
   additionalScripts = ['js/custom.js', 'js/custom-2.js']
@@ -88,9 +88,9 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
 [Languages.en-gb.params.author]
   avatar = "avatar.jpg" # put the file in assets folder; also ensure that image has same height and width
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
-  intro = "Max's Blog"
+  intro = "🔥 Max's Blog"
   name = "leaked ip: 192.168.0.1"
-  description = "Hi! I'm a software engineer based in Switzerland. I'm passionate about Rust 🦀, Web technologies and music"
+  description = "A blog about my programming projects in Rust 🦀, Typescript 🦕 and other wizardry 🧙✨"
 
 # Allow to override webmanifest options
 [Languages.en-gb.params.webmanifest]
