@@ -1,8 +1,8 @@
 ---
-title: Getting started with the DBus in Rust
+title: Getting started with the D-Bus in Rust
 date: 2025-01-24
 author: Max Balej
-description: How to start using the DBus in Rust
+description: How to start using the D-Bus in Rust
 draft: false
 tags:
   - Programming Language
