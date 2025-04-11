@@ -6,7 +6,7 @@ RUN apk add --no-cache --repository=https://dl-cdn.alpinelinux.org/alpine/edge/c
 WORKDIR /app
 COPY . .
 
-ENV BASE_URL="http://localhost:1313"
+ENV BASE_URL="blog.maxbalej.com"
 
 FROM base AS dev
 EXPOSE 1313
