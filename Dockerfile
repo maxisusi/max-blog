@@ -10,7 +10,7 @@ RUN apk add --no-cache --repository=https://dl-cdn.alpinelinux.org/alpine/edge/c
 WORKDIR /app
 COPY . .
 
-RUN hugo build --minify
+RUN hugo --gc --minify --baseURL blog.maxbalej.com
 
 CMD ["hugo", "serve", "--bind" ,"0.0.0.0", "--port", "1313"]
 

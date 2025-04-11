@@ -1,5 +1,5 @@
 title = "Max's Blog"
-baseURL = 'https://example.org/'
+baseURL = 'https://blog.maxbalej.com/'
 languageCode = 'en-us'
 
 # This defines how dates are formatted
