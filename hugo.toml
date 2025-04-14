@@ -1,5 +1,4 @@
 title = "Max's Blog"
-baseURL = 'blog.maxbalej.com'
 languageCode = 'en-us'
 
 # This defines how dates are formatted
