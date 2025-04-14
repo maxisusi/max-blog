@@ -5,11 +5,11 @@ WORKDIR /app
 COPY . .
 
 ENV BASE_URL="localhost"
-CMD hugo --gc --minify --baseURL ${BASE_URL}
+RUN ["hugo", "--gc", "--minify"]
 
 FROM base AS dev
-COPY --from=base /app /app
-CMD ["hugo", "serve", "--bind" ,"0.0.0.0", "--port", "1313"]
+COPY --from=base /app/public /app
+RUN ["hugo", "serve", "--bind" ,"0.0.0.0", "--port", "1313"]
 
 FROM nginx:alpine AS prod
 WORKDIR /usr/share/nginx/html
